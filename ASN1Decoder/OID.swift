@@ -18,6 +18,7 @@ public enum OID: String {
     case ecdsaWithSHA256 = "1.2.840.10045.4.3.2"
     case ecdsaWithSHA512 = "1.2.840.10045.4.3.4"
     case rsaEncryption = "1.2.840.113549.1.1.1"
+    case OID_CP_GOST_R3410_12_256 = "1.2.643.7.1.1.1.1"
     case sha256WithRSAEncryption = "1.2.840.113549.1.1.11"
     case md5WithRSAEncryption = "1.2.840.113549.1.1.4"
     case sha1WithRSAEncryption = "1.2.840.113549.1.1.5"

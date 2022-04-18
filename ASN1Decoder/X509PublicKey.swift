@@ -56,7 +56,7 @@ public class X509PublicKey {
         }
 
         switch oid {
-        case .ecPublicKey:
+        case .ecPublicKey, .OID_CP_GOST_R3410_12_256:
             return keyData
 
         case .rsaEncryption:
